@@ -13,6 +13,6 @@ request(url, (error, response, body) => {
             console.log("Failed to write to file");
             return;
         }
-        console.log("Downloaded and saved 3261 bytes to ./index.html")
+        console.log("Downloaded and saved 3261 bytes to ./index.html");
     });
 });
